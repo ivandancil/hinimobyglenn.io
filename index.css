@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.home{
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(image/homepage.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.navbar{
+    text-transform: inherit;
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+    list-style-type: none;
+    background-color: black;
+}
+
+.navbar li{
+    display: inline-block;
+    padding-right: 15px;
+    margin: 15px;
+}
+
+.navbar a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.5em;
+    color: white;
+}
+
+.navbar a:hover{
+    color: aqua;
+    border-bottom: 3px solid white;
+}
+
+.sub-menu-wrap{
+    position: absolute;
+    top: 8%;
+    right: 13%;
+    width: 130px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.5s;
+
+}
+
+.sub-menu-wrap.open-menu{
+    max-height: 400px;
+    
+}
+
+.sub-menu{
+    background: #fff;
+    padding: 8px;
+    margin: 10px;
+}
+
+.user-info{
+    display: flex;
+    align-items: center;
+}
+
+.user-info h1{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.sub-menu hr{
+    border: 0;
+    height: 2px;
+    width: 100%;
+    background: #ccc;
+    margin: 8px 0 10px;
+}
+
+.sub-menu-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #525255;
+    margin: 5px 0;
+}
+
+.sub-menu-link p:hover{
+    color: aqua;
+}
+
+.sub-menu-link p{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+.PageName h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 50px;
+    padding-left: 15%;
+    padding-top: 30px;
+}
+
+.PageName h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 12px;
+    padding-left: 17%;
+}
+
