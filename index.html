@@ -5,63 +5,113 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    <script src="lightbox-plus-jquery.js"></script>
+    <link rel="stylesheet" href="lightbox.css">
     <title>Document</title>
 </head>
 <body>
-    <div class="home">
-        <div class="navbar">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="image.html"onpointerenter="toggleMenu()">Gallery</a></li>
-            <li><a href="contact.html">Contact</a></li>
 
+    <!------------HOME---------------->
+
+    <div id="header">
+    <div class="container">
+        <nav>
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#images">Gallery</a></li>
+
+        </ul>
+    </nav>
             
-        </div>
-
-
         <header class="PageName">
-            <h1>Hinimo_101</h1>
-            <h2>Handmade by Glennaree</h2>
+            <h1>Hinimo</h1>
+            <h2>Handmade by Glenn</h2>
         </header>
     </div>
-
-    <div class="sub-menu-wrap" id="subMenu">
-        <div class="sub-menu">
-            <div class="user-info">
-                <h1>Categories</h1>
-            </div>
-            <hr>
-
-            <a href="image.html" class="sub-menu-link">
-                <p>All</p>
-                <span></span>
-            </a>
-
-            <a href="#" class="sub-menu-link">
-                <p>Bucket Hat</p>
-                <span></span>
-            </a>
-
-            <a href="#" class="sub-menu-link">
-                <p>Bras</p>
-                <span></span>
-            </a>
-
-        </div>
     </div>
-</div>
 
-    <script>
-   
-        let subMenu = document.getElementById("subMenu");
+     <!--------------ABOUT----------------->
 
-        function toggleMenu(){
-            subMenu.classList.toggle("open-menu");
-        }
+     <div id="about">
+            <header class="PageName"> <!-- this is the header of the web -->
+            <h1>About</h1>
 
-    </script>
+            <section class="Lorem Ipsum">
 
-<script src="lightbox-plus-jquery.js"></script>
+         <!-- the paragraph of the web -->   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>inquam, abeunti; Summus dolor plures
+                dies manere non potest?<br> Mihi, inquam, qui te id ipsum rogavi? Quid sequatur, quid repugnet, vident.<br><br><br>
+            
+            Duo Reges: constructio interrete. Mihi, inquam, qui te id ipsum rogavi?<br> Gloriosa ostentatio in
+                    constituendo summo bono.<br> An est
+                    aliquid, quod te sua sponte delectet?<br> Ostendit pedes et pectus.</p>
+
+                </section>
+                <div class="social-icons">
+                    <a href="https://web.facebook.com/profile.php?id=100068550154521" target="_blank" rel="noopener" rel="noreferrer"> <i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+        </header>
+        
+    </div>
+
+    
+        <!-------------GALLERY------------>
+
+        <div id="images">
+            <header class="PageNameImage"> <!-- this is the header of the web -->
+                <h1>Gallery</h1>
+            <div class="gallery">
+                <a href="image/image_1.jpg" data-lightbox = "models" data-title = "Caption1">
+                    <img src="image/image_1.jpg">
+                </a>
+                <a href="image/image_2.jpg" data-lightbox = "models" data-title = "Caption1">
+                    <img src="image/image_2.jpg">
+                </a>
+                <a href="image/image_3.jpg" data-lightbox = "models" data-title = "Caption1">
+                    <img src="image/image_3.jpg">
+                </a>
+                <a href="image/image_4.jpg" data-lightbox = "models" data-title = "Caption1">
+                    <img src="image/image_4.jpg">
+                </a>
+                <a href="image/image_5.jpg" data-lightbox = "models" data-title = "Caption1">
+                    <img src="image/image_5.jpg">
+                </a>
+                <a href="image/image_6.jpg" data-lightbox = "models" data-title = "Caption1">
+                    <img src="image/image_6.jpg">
+                </a>
+                <a href="image/image_7.jpg" data-lightbox="models" data-title="Caption1">
+                    <img src="image/image_7.jpg" alt="">
+                </a>
+                <a href="image/image_8.jpg" data-lightbox="models" data-title="Caption1">
+                    <img src="image/image_8.jpg" alt="">
+                </a>
+                <a href="image/image_9.jpg" data-lightbox="models" data-title="Caption1">
+                    <img src="image/image_9.jpg" alt="">
+                </a>
+                <a href="image/image_10.jpg" data-lightbox="models" data-title="Caption1">
+                    <img src="image/image_10.jpg" alt="">
+                </a>
+                <a href="image/image_11.jpg" data-lightbox="models" data-title="Caption1">
+                    <img src="image/image_11.jpg" alt="">
+                </a>
+                <a href="image/image_12.jpg" data-lightbox="models" data-title="Caption1">
+                    <img src="image/image_12.jpg" alt="">
+                <a href="image/image_16.jpg" data-lightbox="models" data-title="Caption1">
+                        <img src="image/image_16.jpg" alt="">
+                
+                </a>
+            </div>
+        </header>
+        </div>
+    
+
+ 
+
+
 
 </body>
 </html>
